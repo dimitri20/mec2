@@ -1,0 +1,36 @@
+*{
+box-sizing: border-box;
+}
+body{
+color: white;
+background-color: #e4e0e0;
+background: linear-gradient(
+        rgba(0, 0, 0, 0.9),
+        rgba(0, 0, 0, 0.5)
+    ), url("img1.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+}
+
+small{
+font-size: 0.5em;
+color: gray;
+}
+
+#main{
+margin-top: 100px;
+}
+
+.myform {
+width: 50%;
+}
+
+@media only screen and (max-width: 700px) {
+  .myform{
+  	width: 100%;
+  }
+  body{
+  	background-size: cover;
+  }
+}

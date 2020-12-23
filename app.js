@@ -17,7 +17,7 @@ const app = {
  
     		if(this.inputValue.replace(/\s/g, '') == "მიყვარხარ"){
 				this.val = 'მეც';
-				document.querySelector('#debut').style.display = 'none';
+				
     		}
 
     		return this.val;
